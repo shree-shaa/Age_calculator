@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.box{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #777;
+        background-image: url("c:\Users\akass\Downloads\pexels-pixabay-531880.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #ccc;
+    padding: 57px40px;
+    max-width: 500px;
+    max-height: 700px;
+    height: 200px;
+    width: 100%;
+    padding:40px40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 2);
+    border-radius: 500px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+label{
+  font-size: 30px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+.container div{
+    margin: 10px 0;
+}
+input[type="date"]{
+    padding:8px;
+    font-size: 14px;
+    border-radius:5px;
+    border:1px solid#ccc;
+}
+button{
+    padding:8px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+button.hover{
+    background-color: #218838;
+}
+#result{
+    margin-top: 20px;
+    font-size: 16px;
+}
